@@ -12,15 +12,15 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Bootstrap styles -->
-    <link href="<c:url value="assets/user/css/bootstrap.css" /> " rel="stylesheet"/>
+    <link href="<c:url value="/assets/user/css/bootstrap.css" /> " rel="stylesheet"/>
     <!-- Customize styles -->
-    <link href="style.css" rel="stylesheet"/>
+    <link href="<c:url value="style.css" /> " rel="stylesheet"/>
     <!-- font awesome styles -->
-	<link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet">
+	<link href="<c:url value="/assets/user/font-awesome/css/font-awesome.css" />" rel="stylesheet">
 
 
 	<!-- Favicons -->
-    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+    <link rel="shortcut icon" href="assets/user/ico/favicon.ico" />
   </head>
 <body>
 <!-- 
@@ -55,8 +55,8 @@ Lower Header Section
 <div class="row">
 	<div class="span4">
 	<h1>
-	<a class="logo" href="index.html"><span>Twitter Bootstrap ecommerce template</span> 
-		<img src="assets/img/logo-bootstrap-shoping-cart.png" alt="bootstrap sexy shop">
+	<a class="logo" href="index.html"><span>CỬA HÀNG QUẦN ÁO NHHL</span> 
+		<img src="<c:url value="assets/user/img/logo-bootstrap-shoping-cart.png" />" alt="bootstrap sexy shop">
 	</a>
 	</h1>
 	</div>
@@ -69,7 +69,7 @@ Lower Header Section
 	</div>
 	</div>
 	<div class="span4 alignR">
-	<p><br> <strong> Support (24/7) :  0800 1234 678 </strong><br><br></p>
+	<p><br> <strong> </strong><br><br></p>
 	<span class="btn btn-mini">[ 2 ] <span class="icon-shopping-cart"></span></span>
 	<span class="btn btn-warning btn-mini">$</span>
 	<span class="btn btn-mini">&pound;</span>
@@ -163,7 +163,7 @@ Body Section
 			<li>
 			  <div class="thumbnail">
 				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
-				<img src="assets/img/bootstrap-ecommerce-templates.png" alt="bootstrap ecommerce templates">
+				<img src="<c:url value="assets/user/img/bootstrap-ecommerce-templates.png" /> " alt="bootstrap ecommerce templates">
 				<div class="caption">
 				  <h4><a class="defaultBtn" href="product_details.html">VIEW</a> <span class="pull-right">$22.00</span></h4>
 				</div>
@@ -173,7 +173,7 @@ Body Section
 			<li>
 			  <div class="thumbnail">
 				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
-				<img src="assets/img/shopping-cart-template.png" alt="shopping cart template">
+				<img src="<c:url value="assets/user/img/shopping-cart-template.png" /> " alt="shopping cart template">
 				<div class="caption">
 				  <h4><a class="defaultBtn" href="product_details.html">VIEW</a> <span class="pull-right">$22.00</span></h4>
 				</div>
@@ -183,7 +183,7 @@ Body Section
 			<li>
 			  <div class="thumbnail">
 				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
-				<img src="assets/img/bootstrap-template.png" alt="bootstrap template">
+				<img src="<c:url value="assets/user/img/bootstrap-template.png" /> " alt="bootstrap template">
 				<div class="caption">
 				  <h4><a class="defaultBtn" href="product_details.html">VIEW</a> <span class="pull-right">$22.00</span></h4>
 				</div>
@@ -197,28 +197,28 @@ Body Section
 		<div id="myCarousel" class="carousel slide homCar">
             <div class="carousel-inner">
 			  <div class="item">
-                <img style="width:100%" src="assets/img/bootstrap_free-ecommerce.png" alt="bootstrap ecommerce templates">
+                <img style="width:100%" src="<c:url value="assets/user/img/bootstrap_free-ecommerce.png" />" alt="bootstrap ecommerce templates">
                 <div class="carousel-caption">
                       <h4>Bootstrap shopping cart</h4>
                       <p><span>Very clean simple to use</span></p>
                 </div>
               </div>
 			  <div class="item">
-                <img style="width:100%" src="assets/img/carousel1.png" alt="bootstrap ecommerce templates">
+                <img style="width:100%" src="<c:url value="assets/user/img/carousel1.png" />" alt="bootstrap ecommerce templates">
                 <div class="carousel-caption">
                       <h4>Bootstrap Ecommerce template</h4>
                       <p><span>Highly Google seo friendly</span></p>
                 </div>
               </div>
 			  <div class="item active">
-                <img style="width:100%" src="assets/img/carousel3.png" alt="bootstrap ecommerce templates">
+                <img style="width:100%" src="<c:url value="assets/user/img/carousel3.png" /> " alt="bootstrap ecommerce templates">
                 <div class="carousel-caption">
                       <h4>Twitter Bootstrap cart</h4>
                       <p><span>Very easy to integrate and expand.</span></p>
                 </div>
               </div>
               <div class="item">
-                <img style="width:100%" src="assets/img/bootstrap-templates.png" alt="bootstrap templates">
+                <img style="width:100%" src="<c:url value="assets/img/bootstrap-templates.png" />" alt="bootstrap templates">
                 <div class="carousel-caption">
                       <h4>Bootstrap templates integration</h4>
                       <p><span>Compitable to many more opensource cart</span></p>
@@ -430,22 +430,22 @@ Clients
 	<hr class="soften"/>
 	<div class="row">
 		<div class="span2">
-			<a href="#"><img alt="" src="assets/img/1.png"></a>
+			<a href="#"><img alt="" src="<c:url value="assets/user/img/1.png" /> "></a>
 		</div>
 		<div class="span2">
-			<a href="#"><img alt="" src="assets/img/2.png"></a>
+			<a href="#"><img alt="" src="<c:url value="assets/user/img/2.png" /> "></a>
 		</div>
 		<div class="span2">
-			<a href="#"><img alt="" src="assets/img/3.png"></a>
+			<a href="#"><img alt="" src="<c:url value="assets/user/img/3.png" /> "></a>
 		</div>
 		<div class="span2">
-			<a href="#"><img alt="" src="assets/img/4.png"></a>
+			<a href="#"><img alt="" src="<c:url value="assets/user/img/4.png" /> "></a>
 		</div>
 		<div class="span2">
-			<a href="#"><img alt="" src="assets/img/5.png"></a>
+			<a href="#"><img alt="" src="<c:url value="assets/user/img/5.png" /> "></a>
 		</div>
 		<div class="span2">
-			<a href="#"><img alt="" src="assets/img/6.png"></a>
+			<a href="#"><img alt="" src="<c:url value="assets/user/img/6.png" /> "></a>
 		</div>
 	</div>
 </section>
@@ -493,21 +493,21 @@ accompanied by English versions from the 1914 translation by H. Rackham.
 <div class="copyright">
 <div class="container">
 	<p class="pull-right">
-		<a href="#"><img src="assets/img/maestro.png" alt="payment"></a>
-		<a href="#"><img src="assets/img/mc.png" alt="payment"></a>
-		<a href="#"><img src="assets/img/pp.png" alt="payment"></a>
-		<a href="#"><img src="assets/img/visa.png" alt="payment"></a>
-		<a href="#"><img src="assets/img/disc.png" alt="payment"></a>
+		<a href="#"><img src="<c:url value="/assets/user/img/maestro.png" /> " alt="payment"></a>
+		<a href="#"><img src="<c:url value="/assets/user/img/mc.png" /> " alt="payment"></a>
+		<a href="#"><img src="<c:url value="/assets/user/img/pp.png" /> " alt="payment"></a>
+		<a href="#"><img src="<c:url value="/assets/user/img/visa.png" /> " alt="payment"></a>
+		<a href="#"><img src="<c:url value="/assets/user/img/disc.png" /> " alt="payment"></a>
 	</p>
 	<span>Bản quyền &copy; 2022<br> Phát triển bởi nhóm chuyên đề Java 1</span>
 </div>
 </div>
 <a href="#" class="gotop"><i class="icon-double-angle-up"></i></a>
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="assets/js/jquery.js"></script>
-	<script src="assets/js/bootstrap.min.js"></script>
-	<script src="assets/js/jquery.easing-1.3.min.js"></script>
-    <script src="assets/js/jquery.scrollTo-1.4.3.1-min.js"></script>
-    <script src="assets/js/shop.js"></script>
+    <script src="<c:url value="/assets/user/js/jquery.js" />" ></script>
+	<script src="<c:url value="/assets/user/js/bootstrap.min.js" />" ></script>
+	<script src="<c:url value="/assets/user/js/jquery.easing-1.3.min.js" /> "></script>
+    <script src="<c:url value="/assets/user/js/jquery.scrollTo-1.4.3.1-min.js" /> "></script>
+    <script src="<c:url value="/assets/user/js/shop.js" /> "></script>
   </body>
 </html>

@@ -14,15 +14,18 @@
 		http://www.springframework.org/schema/mvc
 		http://www.springframework.org/schema/mvc/spring-mvc-4.2.xsd">
 
-	<!-- Spring MVC Annotation -->
-	<mvc:annotation-driven />
-	<context:annotation-config />
-	<mvc:resources mapping="/assets/**" location="/assets/" />
+	
+	
 
 	<bean id="viewResolver" p:prefix="/WEB-INF/views/" p:suffix=".jsp"
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 	</bean>
-
+	
+	
+	<!-- Spring MVC Annotation -->
+	<context:annotation-config />
+	<mvc:annotation-driven />
+	<mvc:resources mapping="/assets/**" location="/assets/"></mvc:resources>
 
 	<context:component-scan
 		base-package="com.nhhl" />
