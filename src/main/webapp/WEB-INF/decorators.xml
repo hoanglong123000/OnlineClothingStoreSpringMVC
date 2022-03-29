@@ -1,0 +1,6 @@
+<decorators defaultdir="/WEB-INF/views/layouts">
+	<decorator name="user" page="user.jsp">
+		<pattern>/trang-chu/*</pattern>
+	</decorator>
+	
+</decorators>
