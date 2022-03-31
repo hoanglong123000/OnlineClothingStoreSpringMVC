@@ -1,6 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib uri="http://www.opensymphony.com/sitemesh/decorator" prefix="decorator" %>    
+  
 
 <body>
 	<!-- 
@@ -10,59 +12,54 @@ Body Section
 <div id="sidebar" class="span3">
 <div class="well well-small">
 	<ul class="nav nav-list">
-		<li><a href="products.html"><span class="icon-chevron-right"></span>Fashion</a></li>
-		<li><a href="products.html"><span class="icon-chevron-right"></span>Watches</a></li>
-		<li><a href="products.html"><span class="icon-chevron-right"></span>Fine Jewelry</a></li>
-		<li><a href="products.html"><span class="icon-chevron-right"></span>Fashion Jewelry</a></li>
-		<li><a href="products.html"><span class="icon-chevron-right"></span>Engagement & Wedding</a></li>
-		<li><a href="products.html"><span class="icon-chevron-right"></span>Men's Jewelry</a></li>
-		<li><a href="products.html"><span class="icon-chevron-right"></span>Vintage & Antique</a></li>
-		<li><a href="products.html"><span class="icon-chevron-right"></span>Loose Diamonds </a></li>
-		<li><a href="products.html"><span class="icon-chevron-right"></span>Loose Beads</a></li>
-		<li><a href="products.html"><span class="icon-chevron-right"></span>See All Jewelry & Watches</a></li>
+		<li><a href="products.html"><span class="icon-chevron-right"></span>NHẬN MAY BỘ QUẦN ÁO CẢ NAM VÀ NỮ</a></li>
+		<li><a href="products.html"><span class="icon-chevron-right"></span>NhẬN MAY BỘ QUẦN ÁO HỌC SINH CẢ NAM VÀ NỮ</a></li>
+		<li><a href="products.html"><span class="icon-chevron-right"></span>ÁO KHOÁC HÀNG HIỆU</a></li>
+		<li><a href="products.html"><span class="icon-chevron-right"></span>CHO THUÊ BỘ ÁO CƯỚI CÔ DÂU VÀ CHÚ RỂ</a></li>
+		
 		<li style="border:0"> &nbsp;</li>
-		<li> <a class="totalInCart" href="cart.html"><strong>Total Amount  <span class="badge badge-warning pull-right" style="line-height:18px;">$448.42</span></strong></a></li>
+		<li> <a class="totalInCart" href="cart.html"><strong>TỔNG TIỀN  <span class="badge badge-warning pull-right" style="line-height:18px;">$448.42</span></strong></a></li>
 	</ul>
 </div>
 
 			  <div class="well well-small alert alert-warning cntr">
-				  <h2>50% Discount</h2>
+				  <h2>KHUYẾN MÃI GIẢM GIÁ TẤT CẢ SẢN PHẨM BẰNG 50% GIÁ SẢN PHẨM</h2>
 				  <p> 
-					 only valid for online order. <br><br><a class="defaultBtn" href="#">Click here </a>
+					  <br><br><a class="defaultBtn" href="#">BẤM NGAY</a>
 				  </p>
 			  </div>
-			  <div class="well well-small" ><a href="#"><img src="assets/img/paypal.jpg" alt="payment method paypal"></a></div>
+			  <div class="well well-small" ><a href="#"><img src="<c:url value="assets/user/img/paypal.jpg" /> " alt="payment method paypal"></a></div>
 			
-			<a class="shopBtn btn-block" href="#">Upcoming products <br><small>Click to view</small></a>
+			<a class="shopBtn btn-block" href="#">NHỮNG SẢN PHẨM ĐANG NỔI <br><small>Hiển thị</small></a>
 			<br>
 			<br>
 			<ul class="nav nav-list promowrapper">
 			<li>
 			  <div class="thumbnail">
-				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
+				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> XEM SƠ LƯỢC</a>
 				<img src="<c:url value="/assets/user/img/bootstrap-ecommerce-templates.png" /> " alt="bootstrap ecommerce templates">
 				<div class="caption">
-				  <h4><a class="defaultBtn" href="product_details.html">VIEW</a> <span class="pull-right">$22.00</span></h4>
+				  <h4><a class="defaultBtn" href="product_details.html">CHI TIẾT</a> <span class="pull-right">400,000 VND</span></h4>
 				</div>
 			  </div>
 			</li>
 			<li style="border:0"> &nbsp;</li>
 			<li>
 			  <div class="thumbnail">
-				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
+				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span>XEM SƠ LƯỢC</a>
 				<img src="<c:url value="/assets/user/img/shopping-cart-template.png" /> " alt="shopping cart template">
 				<div class="caption">
-				  <h4><a class="defaultBtn" href="product_details.html">VIEW</a> <span class="pull-right">$22.00</span></h4>
+				  <h4><a class="defaultBtn" href="product_details.html">CHI TIẾT</a> <span class="pull-right">500,000 VND</span></h4>
 				</div>
 			  </div>
 			</li>
 			<li style="border:0"> &nbsp;</li>
 			<li>
 			  <div class="thumbnail">
-				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
-				<img src="<c:url value="/assets/user/img/bootstrap-template.png" /> " alt="bootstrap template">
+				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span>XEM SƠ LƯỢC</a>
+				<img src="<c:url value="/assets/user/img/bootstrap-template.png" />" alt="bootstrap template">
 				<div class="caption">
-				  <h4><a class="defaultBtn" href="product_details.html">VIEW</a> <span class="pull-right">$22.00</span></h4>
+				  <h4><a class="defaultBtn" href="product_details.html">CHI TIẾT</a> <span class="pull-right">600,000 VND</span></h4>
 				</div>
 			  </div>
 			</li>
@@ -76,29 +73,29 @@ Body Section
 			  <div class="item">
                 <img style="width:100%" src="<c:url value="/assets/user/img/bootstrap_free-ecommerce.png" />" alt="bootstrap ecommerce templates">
                 <div class="carousel-caption">
-                      <h4>Bootstrap shopping cart</h4>
-                      <p><span>Very clean simple to use</span></p>
+                      <h4>CỬA HÀNG QUẦN ÁO NHHL</h4>
+                      <p><span>TIỆN LỢI VÀ SẠCH SẼ</span></p>
                 </div>
               </div>
 			  <div class="item">
                 <img style="width:100%" src="<c:url value="/assets/user/img/carousel1.png" />" alt="bootstrap ecommerce templates">
                 <div class="carousel-caption">
-                      <h4>Bootstrap Ecommerce template</h4>
-                      <p><span>Highly Google seo friendly</span></p>
+                      <h4>ÁO KHOÁC DANIOLO</h4>
+                      <p><span>Với áo khoác này thì</span></p>
                 </div>
               </div>
 			  <div class="item active">
-                <img style="width:100%" src="<c:url value="/assets/user/img/carousel3.png" /> " alt="bootstrap ecommerce templates">
+                <img style="width:100%" src="<c:url value="/assets/user/img/carousel3.png" />" alt="bootstrap ecommerce templates">
                 <div class="carousel-caption">
-                      <h4>Twitter Bootstrap cart</h4>
-                      <p><span>Very easy to integrate and expand.</span></p>
+                      <h4>ÁO KHOÁC DANILIS</h4>
+                      
                 </div>
               </div>
               <div class="item">
-                <img style="width:100%" src="<c:url value="/assets/img/bootstrap-templates.png" />" alt="bootstrap templates">
+                <img style="width:100%" src="<c:url value="/assets/user/img/bootstrap-templates.png" />" alt="bootstrap templates">
                 <div class="carousel-caption">
-                      <h4>Bootstrap templates integration</h4>
-                      <p><span>Compitable to many more opensource cart</span></p>
+                      <h4>QUẦN TÂY JEAN XANH GUCCI</h4>
+                      
                 </div>
               </div>
             </div>
@@ -110,7 +107,7 @@ Body Section
 New Products
 -->
 	<div class="well well-small">
-	<h3>New Products </h3>
+	<h3>QUẦN ÁO MỚI </h3>
 	<hr class="soften"/>
 		<div class="row-fluid">
 		<div id="newProductCar" class="carousel slide">
@@ -121,27 +118,27 @@ New Products
 				<div class="thumbnail">
 					<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
 					<a href="#" class="tag"></a>
-					<a href="product_details.html"><img src="/assets/img/bootstrap-ring.png" alt="bootstrap-ring"></a>
+					<a href="product_details.html"><img src="<c:url value="/assets/user/img/bootstrap-ring.png" />" alt="bootstrap-ring"></a>
 				</div>
 				</li>
 				<li class="span3">
 				  <div class="thumbnail">
 					<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
 					<a href="#" class="tag"></a>
-					<a  href="product_details.html"><img src="/assets/img/i.jpg" alt=""></a>
+					<a  href="product_details.html"><img src="<c:url value="/assets/user/img/i.jpg" />" alt=""></a>
 				  </div>
 				</li>
 				<li class="span3">
 				  <div class="thumbnail">
 					<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
 					<a href="#" class="tag"></a>
-					<a  href="product_details.html"><img src="/assets/img/g.jpg" alt=""></a>
+					<a  href="product_details.html"><img src="<c:url value="/assets/user/img/g.jpg" /> " alt=""></a>
 				  </div>
 				</li>
 				<li class="span3">
 				  <div class="thumbnail">
 					<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
-					<a  href="product_details.html"><img src="/assets/img/s.png" alt=""></a>
+					<a  href="product_details.html"><img src="<c:url value="/assets/user/img/s.png" /> " alt=""></a>
 				  </div>
 				</li>
 			  </ul>
@@ -150,26 +147,26 @@ New Products
 		  <ul class="thumbnails">
 			<li class="span3">
 			  <div class="thumbnail">
-				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
-				<a  href="product_details.html"><img src="/assets/img/i.jpg" alt=""></a>
+				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span>XEM SƠ LƯỢC</a>
+				<a  href="product_details.html"><img src="<c:url value="/assets/user/img/i.jpg" />" alt=""></a>
 			  </div>
 			</li>
 			<li class="span3">
 			  <div class="thumbnail">
-				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
-				<a  href="product_details.html"><img src="/assets/img/f.jpg" alt=""></a>
+				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span>XEM SƠ LƯỢC</a>
+				<a  href="product_details.html"><img src="<c:url value="/assets/user/img/f.jpg" />" alt=""></a>
 			  </div>
 			</li>
 			<li class="span3">
 			  <div class="thumbnail">
-				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
-				<a  href="product_details.html"><img src="/assets/img/h.jpg" alt=""></a>
+				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span>XEM SƠ LƯỢC</a>
+				<a  href="product_details.html"><img src="<c:url value="/assets/user/img/h.jpg" />" alt=""></a>
 			  </div>
 			</li>
 			<li class="span3">
 			  <div class="thumbnail">
-				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
-				<a  href="product_details.html"><img src="/assets/img/j.jpg" alt=""></a>
+				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span>XEM SƠ LƯỢC</a>
+				<a  href="product_details.html"><img src="<c:url value="/assets/user/img/j.jpg" />" alt=""></a>
 			  </div>
 			</li>
 		  </ul>
@@ -185,14 +182,14 @@ New Products
 			  <div class="thumbnail">
 				 
 				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
-				<a href="product_details.html"><img src="/assets/img/b.jpg" alt=""></a>
+				<a href="product_details.html"><img src="<c:url value="/assets/user/img/b.jpg" />" alt=""></a>
 				<div class="caption cntr">
-					<p>Manicure & Pedicure</p>
-					<p><strong> $22.00</strong></p>
-					<h4><a class="shopBtn" href="#" title="add to cart"> Add to cart </a></h4>
+					<p>QUẦN NGẮN</p>
+					<p><strong></strong></p>
+					<h4><a class="shopBtn" href="#" title="add to cart">THÊM VÀO GIỎ</a></h4>
 					<div class="actionList">
-						<a class="pull-left" href="#">Add to Wish List </a> 
-						<a class="pull-left" href="#"> Add to Compare </a>
+						<a class="pull-left" href="#">THÊM VÀO DANH SÁCH</a> 
+						<a class="pull-left" href="#">SO SÁNH</a>
 					</div> 
 					<br class="clr">
 				</div>
@@ -201,14 +198,14 @@ New Products
 			<li class="span4">
 			  <div class="thumbnail">
 				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
-				<a href="product_details.html"><img src="/assets/img/c.jpg" alt=""></a>
+				<a href="product_details.html"><img src="<c:url value="/assets/user/img/c.jpg" />" alt=""></a>
 				<div class="caption cntr">
-					<p>Manicure & Pedicure</p>
-					<p><strong> $22.00</strong></p>
-					<h4><a class="shopBtn" href="#" title="add to cart"> Add to cart </a></h4>
+					<p>ÁO KHOÁC ADIDAS</p>
+					<p><strong>50000VND</strong></p>
+					<h4><a class="shopBtn" href="#" title="add to cart"> THÊM VÀO GIỎ</a></h4>
 					<div class="actionList">
-						<a class="pull-left" href="#">Add to Wish List </a> 
-						<a class="pull-left" href="#"> Add to Compare </a>
+						<a class="pull-left" href="#">THÊM VÀO DANH SÁCH </a> 
+						<a class="pull-left" href="#">SO SÁNH </a>
 					</div> 
 					<br class="clr">
 				</div>
@@ -217,14 +214,14 @@ New Products
 			<li class="span4">
 			  <div class="thumbnail">
 				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
-				<a href="product_details.html"><img src="/assets/img/a.jpg" alt=""></a>
+				<a href="product_details.html"><img src="<c:url value="/assets/user/img/a.jpg" />" alt=""></a>
 				<div class="caption cntr">
-					<p>Manicure & Pedicure</p>
-					<p><strong> $22.00</strong></p>
-					<h4><a class="shopBtn" href="#" title="add to cart"> Add to cart </a></h4>
+					<p>QUẦN JEAN XANH WRANGLE </p>
+					<p><strong>100000VND</strong></p>
+					<h4><a class="shopBtn" href="#" title="add to cart">THÊM VÀO GIỎ </a></h4>
 					<div class="actionList">
-						<a class="pull-left" href="#">Add to Wish List </a> 
-						<a class="pull-left" href="#"> Add to Compare </a>
+						<a class="pull-left" href="#">THÊM VÀO DANH SÁCH </a> 
+						<a class="pull-left" href="#"> SO SÁNH </a>
 					</div> 
 					<br class="clr">
 				</div>
@@ -237,48 +234,48 @@ New Products
 	Featured Products
 	-->
 		<div class="well well-small">
-		  <h3><a class="btn btn-mini pull-right" href="products.html" title="View more">VIew More<span class="icon-plus"></span></a> Featured Products  </h3>
+		  <h3><a class="btn btn-mini pull-right" href="products.html" title="View more">Xem thêm<span class="icon-plus"></span></a> HÀNG ĐẶC TRƯNG  </h3>
 		  <hr class="soften"/>
 		  <div class="row-fluid">
 		  <ul class="thumbnails">
 			<li class="span4">
 			  <div class="thumbnail">
-				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
+				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span>XEM SƠ LƯỢC</a>
 				<a  href="product_details.html"><img src="<c:url value="/assets/user/img/d.jpg" />" alt=""></a>
 				<div class="caption">
-				  <h5>Manicure & Pedicure</h5>
+				  <h5>BỘ ÁO VÀ QUẦN TÂY ĐEN</h5>
 				  <h4>
 					  <a class="defaultBtn" href="product_details.html" title="Click to view"><span class="icon-zoom-in"></span></a>
 					  <a class="shopBtn" href="#" title="add to cart"><span class="icon-plus"></span></a>
-					  <span class="pull-right">$22.00</span>
+					  <span class="pull-right">1,500,000 VND</span>
 				  </h4>
 				</div>
 			  </div>
 			</li>
 			<li class="span4">
 			  <div class="thumbnail">
-				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
+				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> XEM SƠ LƯỢC</a>
 				<a  href="product_details.html"><img src="<c:url value="/assets/user/img/e.jpg" />" alt=""></a>
 				<div class="caption">
-				  <h5>Manicure & Pedicure</h5>
+				  <h5>BỘ CAO BỒI</h5>
 				  <h4>
 					  <a class="defaultBtn" href="product_details.html" title="Click to view"><span class="icon-zoom-in"></span></a>
 					  <a class="shopBtn" href="#" title="add to cart"><span class="icon-plus"></span></a>
-					  <span class="pull-right">$22.00</span>
+					  <span class="pull-right">300,000 VND</span>
 				  </h4>
 				</div>
 			  </div>
 			</li>
 			<li class="span4">
 			  <div class="thumbnail">
-				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
+				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> XEM SƠ LƯỢC</a>
 				<a  href="product_details.html"><img src="<c:url value="/assets/user/img/f.jpg" /> " alt=""/></a>
 				<div class="caption">
-				  <h5>Manicure & Pedicure</h5>
+				  <h5>BỘ ÁO CƯỚI CÔ DÂU VÀ CHÚ RỂ</h5>
 				  <h4>
-					  <a class="defaultBtn" href="product_details.html" title="Click to view"><span class="icon-zoom-in"></span></a>
+					  <a class="defaultBtn" href="product_details.html" title="Click to view"><span class="icon-zoom-in"></span>XEM SƠ LƯỢC</a>
 					  <a class="shopBtn" href="#" title="add to cart"><span class="icon-plus"></span></a>
-					  <span class="pull-right">$22.00</span>
+					  <span class="pull-right">1,000,000 VND/5 ngày</span>
 				  </h4>
 				</div>
 			  </div>
@@ -288,13 +285,13 @@ New Products
 	</div>
 	
 	<div class="well well-small">
-	<a class="btn btn-mini pull-right" href="#">View more <span class="icon-plus"></span></a>
-	Popular Products 
+	<a class="btn btn-mini pull-right" href="#">Xem thêm <span class="icon-plus"></span></a>
+	HÀNG THỜI TRANG MỚI NỔI
 	</div>
 	<hr>
 	<div class="well well-small">
-	<a class="btn btn-mini pull-right" href="#">View more <span class="icon-plus"></span></a>
-	Best selling Products 
+	<a class="btn btn-mini pull-right" href="#">Xem thêm <span class="icon-plus"></span></a>
+	HÀNG BÁN CHẠY 
 	</div>
 	</div>
 	</div>

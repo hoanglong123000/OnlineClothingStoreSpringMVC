@@ -13,4 +13,11 @@ public class HomeController
 	{
 		return "user/main";
 	}
+	
+	
+	@RequestMapping(value="/product", method= RequestMethod.GET)
+	public String Product()
+	{
+		return "user/product";
+	}
 }
