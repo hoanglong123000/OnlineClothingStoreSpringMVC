@@ -72,7 +72,7 @@ Lower Header Section
 					href="#"><img src="<c:url value="/assets/user/img/visa.png"/>" alt="payment"></a> <a
 					href="#"><img src="<c:url value="/assets/user/img/disc.png"/>" alt="payment"></a>
 			</p>
-			<span>Bản quyền &copy; 2022<br> bởi nhóm Chuyên Đề Java 1
+			<span><h3>Bản quyền CC&copy; 2022</h3><br> <h3>Đồng hành phát triển bởi nhóm Chuyên Đề Java 1</h3>
 			</span>
 		</div>
 	</div>

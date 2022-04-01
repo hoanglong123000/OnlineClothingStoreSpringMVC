@@ -38,13 +38,11 @@ Footer
 -->
 <footer class="footer">
 	
-
-		<div class="span6">
-			<h5>NHÓM CHUYÊN ĐỀ JAVA 1</h5>
-			<p>Front End: Nguyễn Hoàng Long </p>
-			<p>Kết nối cơ sở dữ liệu JDBC: Nguyễn Hoàng Long và Huỳnh Văn Thiện </p>
+		<h5>NHÓM CHUYÊN ĐỀ JAVA 1</h5>
+			<p>Front End (nhúng CSS, template, layouts): Nguyễn Hoàng Long </p>
+			<p>Back End(Kết nối cơ sở dữ liệu JDBC): Nguyễn Hoàng Long và Huỳnh Văn Thiện </p>
 			<p>Kiểm tra Source Code và báo lỗi: Lê Thị Quỳnh Như và Hà Trung Tín </p>
-			<p>Quản lý cả nhóm: Hà Trung Tín </p>
-		</div>
+			<p>Quản lý nhóm: Lê Thị Quỳnh Như </p>
+	
 	</div>
 </footer>
