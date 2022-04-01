@@ -13,8 +13,9 @@
 		</div>
 		<div class="span4">
 			<div class="offerNoteWrapper">
-				<h1 class="dotmark">
+				<h1 class="dotmark" style="font-size:40px; text-align: center;">
 					<i class="icon-cut"></i> 
+					CỬA HÀNG QUẦN ÁO NHHL
 				</h1>
 			</div>
 		</div>

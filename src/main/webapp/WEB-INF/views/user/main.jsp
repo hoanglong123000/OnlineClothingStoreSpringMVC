@@ -73,28 +73,28 @@ Body Section
 			  <div class="item">
                 <img style="width:100%" src="<c:url value="/assets/user/img/bootstrap_free-ecommerce.png" />" alt="bootstrap ecommerce templates">
                 <div class="carousel-caption">
-                      <h4>CỬA HÀNG QUẦN ÁO NHHL</h4>
-                      <p><span>TIỆN LỢI VÀ SẠCH SẼ</span></p>
+                      <h4>NIKE 2095XXXN ĐEN</h4>
+                      <p><span></span></p>
                 </div>
               </div>
 			  <div class="item">
                 <img style="width:100%" src="<c:url value="/assets/user/img/carousel1.png" />" alt="bootstrap ecommerce templates">
                 <div class="carousel-caption">
-                      <h4>ÁO KHOÁC DANIOLO</h4>
-                      <p><span>Với áo khoác này thì</span></p>
+                      <h4>JEANS XANH ĐẬM CHO CẢ NAM LẪN NỮ</h4>
+                      <p><span>LỊCH SỰ MANG PHONG CÁCH</span></p>
                 </div>
               </div>
 			  <div class="item active">
                 <img style="width:100%" src="<c:url value="/assets/user/img/carousel3.png" />" alt="bootstrap ecommerce templates">
                 <div class="carousel-caption">
-                      <h4>ÁO KHOÁC DANILIS</h4>
+                      <h4>ÁO KHOÁC NIKE XANH</h4>
                       
                 </div>
               </div>
               <div class="item">
                 <img style="width:100%" src="<c:url value="/assets/user/img/bootstrap-templates.png" />" alt="bootstrap templates">
                 <div class="carousel-caption">
-                      <h4>QUẦN TÂY JEAN XANH GUCCI</h4>
+                      <h4>ÁO KHOÁC ADDIDAS XÁM</h4>
                       
                 </div>
               </div>
@@ -216,7 +216,7 @@ New Products
 				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
 				<a href="product_details.html"><img src="<c:url value="/assets/user/img/a.jpg" />" alt=""></a>
 				<div class="caption cntr">
-					<p>QUẦN JEAN XANH WRANGLE </p>
+					<p>ADDIAS KHOÁC 210XYZ </p>
 					<p><strong>100000VND</strong></p>
 					<h4><a class="shopBtn" href="#" title="add to cart">THÊM VÀO GIỎ </a></h4>
 					<div class="actionList">
