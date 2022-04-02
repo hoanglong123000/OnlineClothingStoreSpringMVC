@@ -22,7 +22,7 @@
 <link rel="shortcut icon" href="<c:url value="/assets/user/ico/favicon.ico" />">
 <decorator:head/>
 </head>
-<body>
+<body style="background-color: #F3F3F8;">
 	<!-- 
 	Upper Header Section 
 -->

@@ -18,7 +18,7 @@ Body Section
 		<li><a href="products.html"><span class="icon-chevron-right"></span>CHO THUÊ BỘ ÁO CƯỚI CÔ DÂU VÀ CHÚ RỂ</a></li>
 		
 		<li style="border:0"> &nbsp;</li>
-		<li> <a class="totalInCart" href="cart.html"><strong>TỔNG TIỀN  <span class="badge badge-warning pull-right" style="line-height:18px;">$448.42</span></strong></a></li>
+		
 	</ul>
 </div>
 
@@ -37,7 +37,7 @@ Body Section
 			<li>
 			  <div class="thumbnail">
 				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> XEM SƠ LƯỢC</a>
-				<img src="<c:url value="/assets/user/img/bootstrap-ecommerce-templates.png" /> " alt="bootstrap ecommerce templates">
+				<img src="<c:url value="/assets/user/img/bootstrap-ecommerce-templates.PNG" /> " alt="bootstrap ecommerce templates">
 				<div class="caption">
 				  <h4><a class="defaultBtn" href="product_details.html">CHI TIẾT</a> <span class="pull-right">400,000 VND</span></h4>
 				</div>
@@ -47,7 +47,7 @@ Body Section
 			<li>
 			  <div class="thumbnail">
 				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span>XEM SƠ LƯỢC</a>
-				<img src="<c:url value="/assets/user/img/shopping-cart-template.png" /> " alt="shopping cart template">
+				<img src="<c:url value="/assets/user/img/shopping-cart-template.PNG" /> " alt="shopping cart template">
 				<div class="caption">
 				  <h4><a class="defaultBtn" href="product_details.html">CHI TIẾT</a> <span class="pull-right">500,000 VND</span></h4>
 				</div>
@@ -184,7 +184,7 @@ New Products
 				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
 				<a href="product_details.html"><img src="<c:url value="/assets/user/img/b.jpg" />" alt=""></a>
 				<div class="caption cntr">
-					<p>QUẦN NGẮN</p>
+					<p>KHOÁC ACRYURUSI XANH LÁ</p>
 					<p><strong></strong></p>
 					<h4><a class="shopBtn" href="#" title="add to cart">THÊM VÀO GIỎ</a></h4>
 					<div class="actionList">
@@ -247,7 +247,7 @@ New Products
 				  <h4>
 					  <a class="defaultBtn" href="product_details.html" title="Click to view"><span class="icon-zoom-in"></span></a>
 					  <a class="shopBtn" href="#" title="add to cart"><span class="icon-plus"></span></a>
-					  <span class="pull-right">1,500,000 VND</span>
+					  <span class="pull-right">1500000VND</span>
 				  </h4>
 				</div>
 			  </div>
@@ -261,7 +261,7 @@ New Products
 				  <h4>
 					  <a class="defaultBtn" href="product_details.html" title="Click to view"><span class="icon-zoom-in"></span></a>
 					  <a class="shopBtn" href="#" title="add to cart"><span class="icon-plus"></span></a>
-					  <span class="pull-right">300,000 VND</span>
+					  <span class="pull-right">300000VND</span>
 				  </h4>
 				</div>
 			  </div>
@@ -275,7 +275,7 @@ New Products
 				  <h4>
 					  <a class="defaultBtn" href="product_details.html" title="Click to view"><span class="icon-zoom-in"></span>XEM SƠ LƯỢC</a>
 					  <a class="shopBtn" href="#" title="add to cart"><span class="icon-plus"></span></a>
-					  <span class="pull-right">1,000,000 VND/5 ngày</span>
+					  <span class="pull-right">1000000VND/5 ngày</span>
 				  </h4>
 				</div>
 			  </div>

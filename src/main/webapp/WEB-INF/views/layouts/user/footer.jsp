@@ -39,10 +39,10 @@ Footer
 <footer class="footer">
 	
 		<h5>NHÓM CHUYÊN ĐỀ JAVA 1</h5>
-			<p>Front End (nhúng CSS, template, layouts): Nguyễn Hoàng Long </p>
-			<p>Back End(Kết nối cơ sở dữ liệu JDBC): Nguyễn Hoàng Long và Huỳnh Văn Thiện </p>
-			<p>Kiểm tra Source Code và báo lỗi: Lê Thị Quỳnh Như và Hà Trung Tín </p>
-			<p>Quản lý nhóm: Lê Thị Quỳnh Như </p>
+			<p>Giao diện của đồ án: Nguyễn Hoàng Long </p>
+			<p>Kết nối cơ sở dữ liệu JDBC của đồ án: Nguyễn Hoàng Long, Huỳnh Văn Thiện </p>
+			<p>Kiểm tra Source Code của đồ án và báo lỗi phát sinh từ đồ án: Lê Thị Quỳnh Như, Hà Trung Tín </p>
+			<p>Quản lý tất cả các thành viên trong nhóm: Lê Thị Quỳnh Như </p>
 	
 	</div>
 </footer>

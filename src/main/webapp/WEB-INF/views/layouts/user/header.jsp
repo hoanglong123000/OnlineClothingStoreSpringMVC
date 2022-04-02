@@ -26,7 +26,7 @@
 			</p>
 			<span class="btn btn-mini">[ 2 ] <span
 				class="icon-shopping-cart"></span></span> <span
-				class="btn btn-warning btn-mini">$</span> <span class="btn btn-mini">&pound;</span>
+				class="btn btn-warning btn-mini">VND</span> <span class="btn btn-mini">&pound;</span>
 			<span class="btn btn-mini">&euro;</span>
 		</div>
 	</div>
