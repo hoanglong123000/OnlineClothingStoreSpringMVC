@@ -57,7 +57,7 @@ Body Section
 			<li>
 			  <div class="thumbnail">
 				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span>XEM SƠ LƯỢC</a>
-				<img src="<c:url value="/assets/user/img/anhdongquangcao/bootstrap-template.png" />" alt="bootstrap template">
+				<img src="<c:url value="/assets/user/img/anhdongquangcao/bootstrap-templates.png" />" alt="bootstrap template">
 				<div class="caption">
 				  <h4><a class="defaultBtn" href="product_details.html">CHI TIẾT</a> <span class="pull-right">600,000 VND</span></h4>
 				</div>
@@ -175,7 +175,7 @@ New Products
 			<li class="span4">
 			  <div class="thumbnail">
 				 
-				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
+				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> XEM SƠ LƯỢC</a>
 				<a href="product_details.html"><img src="<c:url value="/assets/user/img/b.jpg" />" alt=""></a>
 				<div class="caption cntr">
 					<p>KHOÁC ACRYURUSI XANH LÁ</p>
@@ -191,7 +191,7 @@ New Products
 			</li>
 			<li class="span4">
 			  <div class="thumbnail">
-				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
+				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> XEM SƠ LƯỢC</a>
 				<a href="product_details.html"><img src="<c:url value="/assets/user/img/c.jpg" />" alt=""></a>
 				<div class="caption cntr">
 					<p>ÁO KHOÁC ADIDAS</p>
@@ -207,7 +207,7 @@ New Products
 			</li>
 			<li class="span4">
 			  <div class="thumbnail">
-				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
+				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> XEM SƠ LƯỢC</a>
 				<a href="product_details.html"><img src="<c:url value="/assets/user/img/a.jpg" />" alt=""></a>
 				<div class="caption cntr">
 					<p>ADDIAS KHOÁC 210XYZ </p>
@@ -267,9 +267,9 @@ New Products
 				<div class="caption">
 				  <h5>BỘ ÁO CƯỚI CÔ DÂU VÀ CHÚ RỂ</h5>
 				  <h4>
-					  <a class="defaultBtn" href="product_details.html" title="Click to view"><span class="icon-zoom-in"></span>XEM SƠ LƯỢC</a>
+					  <a class="defaultBtn" href="product_details.html" title="Click to view"><span class="icon-zoom-in"></span></a>
 					  <a class="shopBtn" href="#" title="add to cart"><span class="icon-plus"></span></a>
-					  <span class="pull-right">1000000VND/5 ngày</span>
+					  <span class="pull-right">1000000VND/5ngày</span>
 				  </h4>
 				</div>
 			  </div>
