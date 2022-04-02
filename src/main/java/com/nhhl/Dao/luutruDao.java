@@ -14,7 +14,7 @@ import com.nhhl.Entity.luutru;
 
 
 @Repository
-public class HomeDao {
+public class luutruDao {
 	@Autowired
 	public JdbcTemplate csdl;
 	

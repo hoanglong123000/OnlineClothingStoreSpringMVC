@@ -6,9 +6,9 @@ public class luutru {
 	//Khai bao cac thuoc tinh trong bang luutru cua co so du lieu cua tiem quan ao nhhl.
 	
 	private int id;
-	private String Luutruanh;
-	private String Tentrangphuc;
-	private String Motatrangphuc;
+	public String Luutruanh;
+	public String Tentrangphuc;
+	public String Motatrangphuc;
 	
 	// Khai bao cac constructor.
 	public luutru()

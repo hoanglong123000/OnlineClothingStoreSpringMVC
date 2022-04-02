@@ -57,7 +57,7 @@ Body Section
 			<li>
 			  <div class="thumbnail">
 				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span>XEM SƠ LƯỢC</a>
-				<img src="<c:url value="/assets/user/img/bootstrap-template.png" />" alt="bootstrap template">
+				<img src="<c:url value="/assets/user/img/anhdongquangcao/bootstrap-template.png" />" alt="bootstrap template">
 				<div class="caption">
 				  <h4><a class="defaultBtn" href="product_details.html">CHI TIẾT</a> <span class="pull-right">600,000 VND</span></h4>
 				</div>
@@ -68,41 +68,35 @@ Body Section
 	</div>
 	<div class="span9">
 	<div class="well np">
-		<div id="myCarousel" class="carousel slide homCar">
-            <div class="carousel-inner">
-			  <div class="item">
-                <img style="width:100%" src="<c:url value="/assets/user/img/bootstrap_free-ecommerce.png" />" alt="bootstrap ecommerce templates">
-                <div class="carousel-caption">
-                      <h4>NIKE 2095XXXN ĐEN</h4>
-                      <p><span></span></p>
-                </div>
-              </div>
-			  <div class="item">
-                <img style="width:100%" src="<c:url value="/assets/user/img/carousel1.png" />" alt="bootstrap ecommerce templates">
-                <div class="carousel-caption">
-                      <h4>JEANS XANH ĐẬM CHO CẢ NAM LẪN NỮ</h4>
-                      <p><span>LỊCH SỰ MANG PHONG CÁCH</span></p>
-                </div>
-              </div>
-			  <div class="item active">
-                <img style="width:100%" src="<c:url value="/assets/user/img/carousel3.png" />" alt="bootstrap ecommerce templates">
-                <div class="carousel-caption">
-                      <h4>ÁO KHOÁC NIKE XANH</h4>
-                      
-                </div>
-              </div>
-              <div class="item">
-                <img style="width:100%" src="<c:url value="/assets/user/img/bootstrap-templates.png" />" alt="bootstrap templates">
-                <div class="carousel-caption">
-                      <h4>ÁO KHOÁC ADDIDAS XÁM</h4>
-                      
-                </div>
-              </div>
-            </div>
-            <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-            <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
-          </div>
-        </div>
+		
+     <div id="myCarousel" class="carousel slide homCar">
+
+					<div class="carousel-inner">
+						<c:forEach var="item" items="${ dsbangluutru }" varStatus="index">
+							<c:if test="${ index.first }">
+								<div class="item active">
+							</c:if>
+							<c:if test="${ not index.first }">
+								<div class="item">
+							</c:if>
+							<img style="width: 100%"
+								src="<c:url value="/assets/user/img/anhdongquangcao/${ item.getLuutruanh() }"/>"
+								alt="bootstrap ecommerce templates">
+							<div class="carousel-caption">
+								<h4>${ item.getTentrangphuc() }</h4>
+								<p>
+									<span>${ item.getMotatrangphuc() }</span>
+								</p>
+							</div>
+					</div>
+					</c:forEach>
+	 </div>
+	 
+	 	<a class="left carousel-control" href="#myCarousel"
+					data-slide="prev">&lsaquo;</a> <a class="right carousel-control"
+					href="#myCarousel" data-slide="next">&rsaquo;</a>
+            
+     </div>
 <!--
 New Products
 -->

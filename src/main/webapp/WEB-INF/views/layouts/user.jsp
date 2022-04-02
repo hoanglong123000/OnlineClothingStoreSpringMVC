@@ -7,7 +7,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title><decorator:title default="Master-layout"/></title>
+<title><decorator:title default="Cửa hàng quần áo NHHL"/></title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="">
@@ -72,8 +72,7 @@ Lower Header Section
 					href="#"><img src="<c:url value="/assets/user/img/visa.png"/>" alt="payment"></a> <a
 					href="#"><img src="<c:url value="/assets/user/img/disc.png"/>" alt="payment"></a>
 			</p>
-			<span><h3>Bản quyền CC&copy; 2022</h3><br> <h3>Đồng hành phát triển bởi nhóm Chuyên Đề Java 1</h3>
-			</span>
+			<span><h3>Bản quyền CC&copy; 2022</h3><br> <h3>Đồng hành phát triển bởi nhóm Chuyên Đề Java 1</h3></span>
 		</div>
 	</div>
 	<a href="#" class="gotop"><i class="icon-double-angle-up"></i></a>

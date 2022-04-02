@@ -8,14 +8,14 @@
 		<div class="span4">
 			<h1>
 				<img src="<c:url value="/assets/user/img/logo-bootstrap-shoping-cart.png" />" alt="NHHLlogo"/>
-				<a class="logo" href="index.html"><span>Cửa hàng quần áo NHHL</span> 
+				<a class="logo" href="index.html"><span>NHHL</span> 
 			</h1>
 		</div>
 		<div class="span4">
 			<div class="offerNoteWrapper">
-				<h1 class="dotmark" style="font-size:40px; text-align: center;">
+				<h1 class="dotmark" style="font-size:30px;">
 					<i class="icon-cut"></i> 
-					CỬA HÀNG QUẦN ÁO NHHL
+						RẺ - ĐẸP - BỀN
 				</h1>
 			</div>
 		</div>
