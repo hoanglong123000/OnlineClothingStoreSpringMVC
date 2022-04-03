@@ -8,15 +8,19 @@
 	<!-- 
 Body Section 
 -->
+  <h1>$ { menus.size()}</h1>
 	<div class="row">
 <div id="sidebar" class="span3">
 <div class="well well-small">
 	<ul class="nav nav-list">
-		<li><a href="products.html"><span class="icon-chevron-right"></span>NHẬN MAY BỘ QUẦN ÁO CẢ NAM VÀ NỮ</a></li>
-		<li><a href="products.html"><span class="icon-chevron-right"></span>NhẬN MAY BỘ QUẦN ÁO HỌC SINH CẢ NAM VÀ NỮ</a></li>
-		<li><a href="products.html"><span class="icon-chevron-right"></span>ÁO KHOÁC HÀNG HIỆU</a></li>
-		<li><a href="products.html"><span class="icon-chevron-right"></span>CHO THUÊ BỘ ÁO CƯỚI CÔ DÂU VÀ CHÚ RỂ</a></li>
+	
+						<c:forEach var="item" items="${ dscategory }">
+								<li><a href="/san-pham/${ item.getId()}"><span class="icon-circle-blank">${ item.getTensanpham() }</span></a></li>
+						</c:forEach>
 		
+		<li><a href="products.html"><span class="icon-chevron-right"></span></a></li>
+		
+		<li><a class="totalIncart" href="cart.html"><strong>THANH TOÁN </strong></a></li>
 		<li style="border:0"> &nbsp;</li>
 		
 	</ul>

@@ -15,9 +15,8 @@ import com.nhhl.Entity.luutru;
 
 
 @Repository
-public class luutruDao {
-	@Autowired
-	public JdbcTemplate csdl;
+public class luutruDao extends BaseDao{
+	
 	
 	//Overriden public List<luutru> LayDuLieuTuluutruMySQL();
 	public List<luutru> LayDuLieuTuluutruMySQL()

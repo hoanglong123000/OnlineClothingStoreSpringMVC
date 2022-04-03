@@ -10,19 +10,19 @@ import com.nhhl.Service.User.EntityInheritance;
 import com.nhhl.Dao.luutruDao;
 
 @Controller
-public class HomeController
+public class HomeController extends BaseController
 {
-	@Autowired
-	EntityInheritance homeDao;
-	
 	
 	@RequestMapping(value= {"/", "/trang-chu"}, method = RequestMethod.GET)
 	public ModelAndView Index()
 	{
-		ModelAndView mv = new ModelAndView("user/main");
-		mv.addObject("dsbangluutru", homeDao.LayDuLieuTuluutruMySQL());
-		return mv;
+		mvshare.addObject("dsbangluutru", homeServ.LayDuLieuTuluutruMySQL());
+		mvshare.addObject("dscategory", homeServ.LayDuLieuCate());
+		mvshare.addObject("menus", homeServ.getDatafromMenu());
+		mvshare.setViewName("user/main");
+		return mvshare;
 	} 
+	
 	
 	
 	
