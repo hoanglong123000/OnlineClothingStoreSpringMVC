@@ -12,15 +12,18 @@ import com.nhhl.Dao.luutruDao;
 @Controller
 public class HomeController extends BaseController
 {
+	@Autowired
+	EntityInheritance homeServ;
+	
 	
 	@RequestMapping(value= {"/", "/trang-chu"}, method = RequestMethod.GET)
 	public ModelAndView Index()
 	{
-		mvshare.addObject("dsbangluutru", homeServ.LayDuLieuTuluutruMySQL());
-		mvshare.addObject("dscategory", homeServ.LayDuLieuCate());
-		mvshare.addObject("menus", homeServ.getDatafromMenu());
-		mvshare.setViewName("user/main");
-		return mvshare;
+		
+		ModelAndView mv = new ModelAndView("user/main");
+		mv.addObject("dsbangluutru", homeServ.LayDuLieuTuluutruMySQL());
+		mv.addObject("dscategory", homeServ.LayDuLieuCate());
+		return mv;
 	} 
 	
 	

@@ -11,8 +11,7 @@ import org.springframework.stereotype.Repository;
 
 import com.nhhl.Entity.Categories;
 import com.nhhl.Entity.MapperCate;
-import com.nhhl.Entity.Mapperluutru;
-import com.nhhl.Entity.luutru;
+
 
 // Day la lop truy van den co so du lieu.
 

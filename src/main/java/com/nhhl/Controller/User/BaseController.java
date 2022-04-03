@@ -14,14 +14,7 @@ public class BaseController{
 	
 	@Autowired
 	EntityInheritance homeServ;
-	public ModelAndView mvshare = new ModelAndView();
-	
-	@PostConstruct
-	public ModelAndView Init()
-	{
-		mvshare.addObject("menus", homeServ.getDatafromMenu());
-		return mvshare;
-	}
+
 	
 	
 	
