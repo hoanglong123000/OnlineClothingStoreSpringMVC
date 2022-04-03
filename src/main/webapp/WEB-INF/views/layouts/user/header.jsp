@@ -21,7 +21,7 @@
 		</div>
 		<div class="span4 alignR">
 			<p>
-				<br> <strong> Liên hệ: 0833431305 </strong><br>
+				<br> <strong style="color: white;"> Liên hệ: 0833431305 </strong><br>
 				<br>
 			</p>
 			<span class="btn btn-mini">[ 2 ] <span

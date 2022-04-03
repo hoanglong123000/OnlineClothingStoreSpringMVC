@@ -57,7 +57,7 @@ Body Section
 			<li>
 			  <div class="thumbnail">
 				<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span>XEM SƠ LƯỢC</a>
-				<img src="<c:url value="/assets/user/img/anhdongquangcao/bootstrap-templates.png" />" alt="bootstrap template">
+				<img src="<c:url value="/assets/user/img/Addidasblacksuit1.png" />" alt="bootstrap template">
 				<div class="caption">
 				  <h4><a class="defaultBtn" href="product_details.html">CHI TIẾT</a> <span class="pull-right">600,000 VND</span></h4>
 				</div>
@@ -110,28 +110,28 @@ New Products
 			  <ul class="thumbnails">
 				<li class="span3">
 				<div class="thumbnail">
-					<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
+					<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> XEM SƠ LƯỢC</a>
 					<a href="#" class="tag"></a>
 					<a href="product_details.html"><img src="<c:url value="/assets/user/img/bootstrap-ring.png" />" alt="bootstrap-ring"></a>
 				</div>
 				</li>
 				<li class="span3">
 				  <div class="thumbnail">
-					<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
+					<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> XEM SƠ LƯỢC</a>
 					<a href="#" class="tag"></a>
 					<a  href="product_details.html"><img src="<c:url value="/assets/user/img/i.jpg" />" alt=""></a>
 				  </div>
 				</li>
 				<li class="span3">
 				  <div class="thumbnail">
-					<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
+					<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> XEM SƠ LƯỢC</a>
 					<a href="#" class="tag"></a>
 					<a  href="product_details.html"><img src="<c:url value="/assets/user/img/g.jpg" /> " alt=""></a>
 				  </div>
 				</li>
 				<li class="span3">
 				  <div class="thumbnail">
-					<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> QUICK VIEW</a>
+					<a class="zoomTool" href="product_details.html" title="add to cart"><span class="icon-search"></span> XEM SƠ LƯỢC</a>
 					<a  href="product_details.html"><img src="<c:url value="/assets/user/img/s.png" /> " alt=""></a>
 				  </div>
 				</li>

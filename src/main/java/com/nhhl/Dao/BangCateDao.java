@@ -1,5 +1,6 @@
 package com.nhhl.Dao;
 
+
 import java.util.ArrayList;
 import com.nhhl.Service.User.InterfaceEntity;
 import java.util.List;
@@ -8,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
+import com.nhhl.Entity.Categories;
 import com.nhhl.Entity.Mapperluutru;
 import com.nhhl.Entity.luutru;
 
@@ -15,18 +17,18 @@ import com.nhhl.Entity.luutru;
 
 
 @Repository
-public class luutruDao {
+public class BangCateDao {
 	@Autowired
 	public JdbcTemplate csdl;
 	
 	//Overriden public List<luutru> LayDuLieuTuluutruMySQL();
-	public List<luutru> LayDuLieuTuluutruMySQL()
+	public List<Categories> LayDuLieuCate()
 	{
-		List<luutru> danhsachbangluutru = new ArrayList<luutru>();
+		List<Categories> dscate = new ArrayList<Categories>();
 		// Khai bao chuoi lay danh sach cua bo trang phuc.
 		String truyvanbangluutru = "select * from luutru";
-		danhsachbangluutru = csdl.query(truyvanbangluutru, new Mapperluutru());
-		return danhsachbangluutru;
+		dscate = csdl.query(truyvanbangluutru, new Mapperluutru());
+		return dscate;
 	}
 	
 	

@@ -22,7 +22,7 @@
 <link rel="shortcut icon" href="<c:url value="/assets/user/ico/favicon.ico" />">
 <decorator:head/>
 </head>
-<body style="background-color: #F3F3F8;">
+<body style="background-color: #94C9FF;">
 	<!-- 
 	Upper Header Section 
 -->
@@ -63,7 +63,7 @@ Lower Header Section
 	</div>
 	<!-- /container -->
 
-	<div class="copyright">
+	<div class="copyright" style="background-color: #94C9FF;">
 		<div class="container">
 			<p class="pull-right">
 				<a href="#"><img src="<c:url value="/assets/user/img/maestro.png"/>" alt="payment"></a>
@@ -72,7 +72,7 @@ Lower Header Section
 					href="#"><img src="<c:url value="/assets/user/img/visa.png"/>" alt="payment"></a> <a
 					href="#"><img src="<c:url value="/assets/user/img/disc.png"/>" alt="payment"></a>
 			</p>
-			<span><h3>Bản quyền CC&copy; 2022</h3><br> <h3>Đồng hành phát triển bởi nhóm Chuyên Đề Java 1</h3></span>
+			<span><h3 style="color: white;">Bản quyền CC&copy; 2022</h3><br> <h3 style="color: white;">Đồng hành phát triển bởi nhóm Chuyên Đề Java 1</h3></span>
 		</div>
 	</div>
 	<a href="#" class="gotop"><i class="icon-double-angle-up"></i></a>
